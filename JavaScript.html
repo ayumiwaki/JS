@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+var x = prompt("Entre com um dado", "");
+if(confirm("Quer ver o tipo do dado?")){
+// sempre vai ser uma string
+// percisamos verificar e converter
+// verificando booleano
+if(x=="true" || x=="false"){
+x = Boolean(x);
+document.write("O tipo de dado é: "+ typeof(x));
+}
+else{
+// verificando numérico
+// Se não for numérico imprime o tipo 
+if(!(Number(x))){
+document.write("O tipo do dado é:"+ typeof(x));
+}
+// Se for numérico converte para número e imprime o tipo
+else{
+x= Number(x);
+document.write("O tipo de dado é: "+ typeof(x));
+}
+}
+}
+else{
+document.write("Obrigado por visitar esta página");
+}
+-->
+</script>
+</head>
+</html>
+
